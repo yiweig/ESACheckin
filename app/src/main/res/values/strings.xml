@@ -8,4 +8,6 @@
     <string name="net_id_hint">Emory NetID (OPUS username)</string>
     <string name="save_button_text">SAVE</string>
     <string name="clear_button_text">CLEAR</string>
+    <string name="check_in_code_hint">Check-in code</string>
+    <string name="check_in_button_text">CHECK IN</string>
 </resources>
