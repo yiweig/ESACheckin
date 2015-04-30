@@ -1,3 +1,3 @@
-# ESACheckin
+# ESA Checkin
 App for checking in to ESA events (GBMs, tours, lobby hosting, etc.)
 
