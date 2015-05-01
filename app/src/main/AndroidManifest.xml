@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="edu.emory.esacheckin"
+<manifest
+    package="edu.emory.esacheckin"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
@@ -17,7 +18,11 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SettingsActivity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:parentActivityName="edu.emory.esacheckin.MainActivity">
+        </activity>
+        
     </application>
 
 </manifest>
