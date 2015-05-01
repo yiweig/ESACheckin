@@ -20,9 +20,10 @@
 
         <activity
             android:name=".SettingsActivity"
+            android:label="@string/settings_activity_label"
             android:parentActivityName="edu.emory.esacheckin.MainActivity">
         </activity>
-        
+
     </application>
 
 </manifest>

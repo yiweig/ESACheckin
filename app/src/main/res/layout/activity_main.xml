@@ -1,28 +1,43 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/code_input"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_weight=".40"
         android:gravity="center"
-        android:hint="@string/check_in_code_hint"
-        android:inputType="number" />
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/check_in_button"
+        <EditText
+            android:id="@+id/code_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/check_in_code_hint"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/check_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_in_button_text" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/code_input"
-        android:layout_centerHorizontal="true"
-        android:text="@string/check_in_button_text" />
+        android:layout_weight=".60">
+    </LinearLayout>
 
-</RelativeLayout>
+
+</LinearLayout>

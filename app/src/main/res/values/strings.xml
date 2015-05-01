@@ -10,4 +10,5 @@
     <string name="clear_button_text">CLEAR</string>
     <string name="check_in_code_hint">Check-in code</string>
     <string name="check_in_button_text">CHECK IN</string>
+    <string name="settings_activity_label">Settings</string>
 </resources>
